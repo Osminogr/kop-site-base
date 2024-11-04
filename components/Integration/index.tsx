@@ -25,7 +25,6 @@ const Integration = () => {
             <Image
               width={1200}
               height={400}
-              sizes="(max-width: 768px) 100vw"
               src="/images/shape/shape-dotted-light.svg"
               alt="Dotted"
               className="dark:hidden"

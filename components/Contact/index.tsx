@@ -61,7 +61,7 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
+                action="https://formbold.com/s/9gORb"
                 method="POST"
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
@@ -69,12 +69,14 @@ const Contact = () => {
                     type="text"
                     placeholder="Ваше имя"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    name="name"
                   />
 
                   <input
                     type="email"
                     placeholder="Email"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    name="email"
                   />
                 </div>
 
@@ -83,12 +85,14 @@ const Contact = () => {
                     type="text"
                     placeholder="Что именно вас заинтересовало"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                  name="subject"
                   />
 
                   <input
                     type="text"
                     placeholder="Номер телефона"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
+                    name="phone"
                   />
                 </div>
 
@@ -97,6 +101,7 @@ const Contact = () => {
                     placeholder="Опишите подробнее что именно вас заинтересовало"
                     rows={4}
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
+                  name="message"
                   ></textarea>
                 </div>
 
@@ -128,7 +133,7 @@ const Contact = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      Отправляя форму вы соглашаетесь на обработку данных, а также с использованием Cookie.
+                      Отправляя форму Вы соглашаетесь на обработку данных, а также с использованием Cookie.
                     </label>
                   </div>
 
@@ -185,7 +190,7 @@ const Contact = () => {
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Email адресс
+                  Email адрес
                 </h3>
                 <p>
                   <a href="#">request@kop-project.ru</a>

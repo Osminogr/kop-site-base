@@ -19,7 +19,7 @@ const Hero = () => {
                 🔥 Комплексная оценка персонала для вашего бизнеса
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Узнайте как видят ваш бизнес клиенты без риска для репутации
+                Ниже риски - выше эффективность
                 
               </h1>
               <p>
@@ -65,13 +65,13 @@ const Hero = () => {
                 <div className=" relative aspect-[700/444] w-full">
                   <Image
                     className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.png"
+                    src="/images/hero/hero-light.svg"
                     alt="Hero"
                     fill
                   />
                   <Image
                     className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.png"
+                    src="/images/hero/hero-dark.svg"
                     alt="Hero"
                     fill
                   />
